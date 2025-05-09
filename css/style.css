@@ -14,14 +14,13 @@ body {
 }
 
 .hero {
-  height: 300px;
+  height: 500px;
   background-color: #1F2937;
 }
 
 .information {
-  border-style: solid;
-  border-width: 5px;
-  height: 300px;
+  height: 500px;
+  background-color: white;
 }
 
 .quote {
@@ -44,9 +43,9 @@ body {
 
 .links {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   flex: 1;
-  margin-right: 100px;
+  margin-right: 200px;
   justify-content: end;
   color: white;
   font-size: 18px;
@@ -55,7 +54,7 @@ body {
 .logo {
   display: flex;
   flex: 1;
-  margin-left: 100px;
+  margin-left: 200px;
   color: white;
 }
 
@@ -66,18 +65,20 @@ body {
 }
 
 .image-placeholder {
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 300px;
   background-color: #ccc;
 }
 
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
   align-items: center;
-  gap: 24px;
+  gap: 100px;
   margin: 0;
-  padding: 0;
+  padding: 0 200px;
 }
 
 .hero .container {
@@ -85,8 +86,9 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 200px;
+  height: 300px;
   width: 350px;
+  gap: 16px;
 }
 
 .container .title {
@@ -125,3 +127,52 @@ button {
   color: white;
   font-family: "Roboto", "Arial", sans-serif;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.information .container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.illustration {
+  border-style: solid;
+  border-color: #3882f6;
+  border-width: 3px;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 16px;
+}
+
+.subtext {
+  text-align: left;
+  font-size: 18px;
+}
+
+.info .subtext {
+  text-align: center;
+  color: #1F2937;
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bolder;
+  margin: 36px;
+}
+
