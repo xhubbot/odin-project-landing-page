@@ -13,10 +13,9 @@ body {
   height: 50px;
 }
 
-.herotext {
-  border-style: solid;
-  border-width: 5px;
+.hero {
   height: 300px;
+  background-color: #1F2937;
 }
 
 .information {
@@ -58,11 +57,71 @@ body {
   flex: 1;
   margin-left: 100px;
   color: white;
-  font-size: 24px;
-  padding: 0px;
 }
 
-h3 {
+.logo p {
+  font-size: 24px;
+  padding: 0px;
+  color: white;
+}
+
+.image-placeholder {
+  width: 400px;
+  height: 200px;
+  background-color: #ccc;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 200px;
+  width: 350px;
+}
+
+.container .title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
   padding: 0;
   margin: 0;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+button {
+  margin-top: 8px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+}
+
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", "Arial", sans-serif;
 }
