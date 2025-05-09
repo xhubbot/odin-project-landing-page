@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  background-color: #1F2937;
+  font-family: "Roboto", "Arial", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.herotext {
+  border-style: solid;
+  border-width: 5px;
+  height: 300px;
+}
+
+.information {
+  border-style: solid;
+  border-width: 5px;
+  height: 300px;
+}
+
+.quote {
+  border-style: solid;
+  border-width: 5px;
+  height: 300px;
+}
+
+.signup {
+  border-style: solid;
+  border-width: 5px;
+  height: 300px;
+}
+
+.footer {
+  border-style: solid;
+  border-width: 5px;
+  height: 50px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  margin-right: 100px;
+  justify-content: end;
+  color: white;
+  font-size: 18px;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  margin-left: 100px;
+  color: white;
+  font-size: 24px;
+  padding: 0px;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
